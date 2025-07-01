@@ -31,6 +31,5 @@ public class LongestSubstringWithoutRepeatingChar{
         LongestSubstringWithoutRepeatingChar obj = new LongestSubstringWithoutRepeatingChar();
         int result = obj.lengthOfLongestSubstring(str);
         System.out.println("Length of the longest Substring without repeating characters is: " +result);
-        
     }
 }

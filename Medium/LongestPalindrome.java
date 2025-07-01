@@ -19,7 +19,7 @@ public class LongestPalindrome {
         for(int i = 0 ; i < n ; i++){
             for(int j = i ; j < n ; j++){ //i=0 j=(0,0)(0,1)(0,2)(0,3) , i=1 j=(1,1)(1,2)(1,3) , i=2 j=(2,2)(2,3)
                 if(isPalindrome(s, i, j)==true){
-                    if((j - i + 1) > max){
+                    if((j - i + 1) > max){ //current substring length
                         max = j - i + 1;
                         start = i;
                         end = j;

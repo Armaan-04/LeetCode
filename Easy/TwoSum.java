@@ -11,7 +11,7 @@ public class TwoSum{
         } 
 
         public static void main(String[] args) {
-            int[] nums = { 2,7,23,55,3};
+            int[] nums = {2,7,23,55,3};
             int target = 26;
 
             int[] result = TwoSum(nums , target);
